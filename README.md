@@ -32,7 +32,7 @@ Possible Solutions:
 - Train or fine-tune YOLO on traffic-specific datasets for improved accuracy.
 
 ## Folder Structure
-object-detection-traffic-cameras/
+*object-detection-traffic-cameras/
 │
 ├── data/                      # Input videos
 │   └── traffic.mp4
@@ -44,7 +44,7 @@ object-detection-traffic-cameras/
 │   └── detect.py
 │
 ├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
+└── README.md                  # Project documentation*
 
 ## Current Status
 *Phase 1 – Conception Phase*  
