@@ -52,10 +52,12 @@ object-detection-traffic-cameras/
 *Phase 1 – Conception Phase*  
 - Project topic selected and abstract completed.
 - Tools and methods defined (Python, OpenCV, YOLO).
+
 *Phase 2 - Development Phase (Current)*
 - Prototype implemented and tested.
 - Measured FPS (~12 on CPU) and detection accuracy (~88%).
 - Added a behavioral feature for vehicle counting to analyze traffic flow.
+
 *Phase 3 - Final Phase(Planned)*
 - Improve detection reliability under various conditions.
 - Add simple visual charts (vehicle count vs time).
