@@ -31,29 +31,6 @@ Possible Solutions:
 - Adjust YOLO confidence threshold (e.g., 0.3–0.5).
 - Train or fine-tune YOLO on traffic-specific datasets for improved accuracy.
 
-## Folder Structure
-object-detection-traffic-cameras/
-│
-├── data/                     # csv files
-│   ├── ideal.csv
-│   ├── test.csv
-│   └── train.csv
-├── models/                     
-│   ├── base.py
-│   ├── data_loader.py        # CSV loading
-│   ├── database.py           # SQLite integration
-│   ├── deviation.py          # Test point deviation logic
-│   ├── matcher.py            # Function matching logic
-│   └── plotter.py            # Bokeh visualizations
-├── tests/                     # Unit tests
-│   ├── test_matcher.py
-│   └── test_deviation.py
-├── utils/                     
-│  └── exception.py
-├── main.py                    # Runs the complete pipeline
-├── requirenments.txt          # Requirnments for running the program   
-└── README.md
-
 ## Current Status
 *Phase 1 – Conception Phase*  
 - Project topic selected and abstract completed.
@@ -66,6 +43,23 @@ object-detection-traffic-cameras/
 - Improve detection reliability under various conditions.
 - Add simple visual charts (vehicle count vs time).
 - Finalize the full project report and presentation.
+
+## Folder Structure
+```bash
+object-detection-traffic-cameras/
+│
+├── data/                      # Input videos
+│   └── traffic.mp4
+│
+├── outputs/                   # Output videos with detection results
+│   └── output_video.mp4
+│
+├── src/                       # Source code
+│   └── detect.py
+│
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+
 
 ## Author
 **Raman Lal**  
