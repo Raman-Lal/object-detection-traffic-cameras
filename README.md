@@ -68,6 +68,7 @@ Objec-Detection-for-Traffic-Cameras/
 │   └── README.md                  # Placeholder (videos not included)
 │
 ├── outputs/
+│   ├── README.md                  # outputs description
 │   ├── results.csv                # Per-frame detections
 │   ├── detections_graph.png       # Graph of total detections per frame
 │   └── screenshots/
