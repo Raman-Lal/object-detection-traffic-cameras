@@ -23,6 +23,10 @@ The goal is to create a simplified prototype that demonstrates how automated tra
 - Phase 2 - Development Preparation: Folder structure, environment setup, and research overview completed.  
 - Phase 3 - Development and Evaluation: Full implementation completed. Results analysed across three different video scenarios. All outputs generated for evaluation.
 
+## Project Goal  
+The purpose of the project is to build a small but complete traffic detection pipeline that can process video input, detect multiple objects in real time, track vehicle density, and generate analytical outputs.  
+While the technology is not new, the project demonstrates how different tools can be combined into an educational, transparent, and reproducible prototype suitable for academic evaluation.
+
 ---
 
 # Test Cases  
@@ -81,10 +85,6 @@ Higher-resolution videos (like 4K) significantly reduce FPS due to increased com
 These risks are addressed in the system evaluation and will be further discussed in the final project report’s reflection section.
 
 ---
-
-## Project Goal  
-The purpose of the project is to build a small but complete traffic detection pipeline that can process video input, detect multiple objects in real time, track vehicle density, and generate analytical outputs.  
-While the technology is not new, the project demonstrates how different tools can be combined into an educational, transparent, and reproducible prototype suitable for academic evaluation.
 
 ## Evaluation Summary (Phase 3)  
 The system was tested on three different traffic videos to compare performance under different conditions:
